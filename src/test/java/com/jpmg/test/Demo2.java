@@ -9,9 +9,7 @@ import java.io.IOException;
 //will be deleted
 //not part of framework
 public class Demo2 {
-
     public static void main(String[] args) throws IOException {
-
 
         //location - read
         FileInputStream file = new FileInputStream("test_data/openemr_data.xlsx");
@@ -33,6 +31,8 @@ public class Demo2 {
                 System.out.println(value);
             }
         }
+
+        System.out.println("Excel Demo");
 
     }
 }

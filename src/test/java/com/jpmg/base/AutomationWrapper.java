@@ -15,7 +15,7 @@ public class AutomationWrapper {
     @BeforeMethod
     public void setup() {
 
-        String browserName = "ch";
+        String browserName = "edge";
 
         if (browserName.equalsIgnoreCase("edge")) {
             System.setProperty("webdriver.edge.driver", "driver/msedgedriver.exe");
